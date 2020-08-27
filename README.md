@@ -2,7 +2,9 @@
 Aquarius Mini Expander 1-1-0 - Rev A
  
 by Sean P. Harrington
-mailto:sph@1stage.com
+
+sph@1stage.com
+
 http://aquarius.1stage.com
  
 ## Background
