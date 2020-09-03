@@ -23365,6 +23365,133 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper" urn="urn:adsk.eagle:library:252">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SJ" urn="urn:adsk.eagle:footprint:15432/1" library_version="2">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
+</package>
+<package name="SJW" urn="urn:adsk.eagle:footprint:15433/1" library_version="2">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.905" y1="-1.524" x2="-1.905" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.524" x2="2.159" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="1.27" x2="-1.905" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="-1.27" x2="-1.905" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.905" y1="-1.524" x2="2.159" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.27" x2="2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="-1.27" x2="-2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.524" x2="1.905" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.524" y1="0" x2="2.032" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.524" y1="0" x2="-2.032" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51" curve="180"/>
+<smd name="1" x="-1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="2" x="1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="-2.159" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="0.762" y1="-0.762" x2="1.016" y2="0.762" layer="51"/>
+<rectangle x1="1.016" y1="-0.635" x2="1.27" y2="0.635" layer="51"/>
+<rectangle x1="1.27" y1="-0.508" x2="1.397" y2="0.508" layer="51"/>
+<rectangle x1="1.397" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.016" y1="-0.762" x2="-0.762" y2="0.762" layer="51"/>
+<rectangle x1="-1.27" y1="-0.635" x2="-1.016" y2="0.635" layer="51"/>
+<rectangle x1="-1.397" y1="-0.508" x2="-1.27" y2="0.508" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.397" y2="0.254" layer="51"/>
+<rectangle x1="0.9652" y1="-0.7112" x2="1.0922" y2="-0.5842" layer="51"/>
+<rectangle x1="1.3462" y1="-0.3556" x2="1.4732" y2="-0.2286" layer="51"/>
+<rectangle x1="1.3462" y1="0.2032" x2="1.4732" y2="0.3302" layer="51"/>
+<rectangle x1="0.9652" y1="0.5842" x2="1.0922" y2="0.7112" layer="51"/>
+<rectangle x1="-1.0922" y1="-0.7112" x2="-0.9652" y2="-0.5842" layer="51"/>
+<rectangle x1="-1.4478" y1="-0.3302" x2="-1.3208" y2="-0.2032" layer="51"/>
+<rectangle x1="-1.4732" y1="0.2032" x2="-1.3462" y2="0.3302" layer="51"/>
+<rectangle x1="-1.1176" y1="0.5842" x2="-0.9906" y2="0.7112" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SJ" urn="urn:adsk.eagle:package:15471/1" type="box" library_version="2">
+<description>Solder jumper</description>
+<packageinstances>
+<packageinstance name="SJ"/>
+</packageinstances>
+</package3d>
+<package3d name="SJW" urn="urn:adsk.eagle:package:15507/1" type="box" library_version="2">
+<description>Solder jumper</description>
+<packageinstances>
+<packageinstance name="SJW"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="SJ" urn="urn:adsk.eagle:symbol:15431/1" library_version="2">
+<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SJ" urn="urn:adsk.eagle:component:15508/2" prefix="SJ" uservalue="yes" library_version="2">
+<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="SJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SJ">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15471/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="33" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="W" package="SJW">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15507/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -23422,6 +23549,10 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <part name="XX02" library="aquarius" deviceset="AQ-MX-BODGE-2" device=""/>
 <part name="XX03" library="aquarius" deviceset="AQ-MX-BODGE-3" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23440,7 +23571,7 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <text x="27.94" y="-48.26" size="2.54" layer="97" align="center">Sound MIX/AMP</text>
 <text x="-106.68" y="-10.16" size="2.54" layer="97" align="center">Address Buffer</text>
 <text x="-101.6" y="96.52" size="2.54" layer="97" align="center">Balance/Filter Capacitors</text>
-<text x="-101.6" y="-111.76" size="2.54" layer="97" align="center">Aquarius Mini Expander v1-1-0 - REV A</text>
+<text x="-101.6" y="-111.76" size="2.54" layer="97" align="center">Aquarius Mini Expander v1-1-0 - REV B</text>
 <text x="-101.6" y="-106.68" size="2.54" layer="97" align="center">Project</text>
 <wire x1="-134.62" y1="-114.3" x2="-134.62" y2="-109.22" width="0.1524" layer="97"/>
 <wire x1="-134.62" y1="-109.22" x2="-134.62" y2="-104.14" width="0.1524" layer="97"/>
@@ -23449,7 +23580,7 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <wire x1="-68.58" y1="-109.22" x2="-68.58" y2="-114.3" width="0.1524" layer="97"/>
 <wire x1="-68.58" y1="-114.3" x2="-134.62" y2="-114.3" width="0.1524" layer="97"/>
 <wire x1="-134.62" y1="-109.22" x2="-68.58" y2="-109.22" width="0.1524" layer="97"/>
-<text x="-43.18" y="-111.76" size="2.54" layer="97" align="center">26 AUG 2020</text>
+<text x="-43.18" y="-111.76" size="2.54" layer="97" align="center">02 SEP 2020</text>
 <text x="-43.18" y="-106.68" size="2.54" layer="97" align="center">Revision Date</text>
 <wire x1="-68.58" y1="-114.3" x2="-68.58" y2="-109.22" width="0.1524" layer="97"/>
 <wire x1="-68.58" y1="-109.22" x2="-68.58" y2="-104.14" width="0.1524" layer="97"/>
@@ -23483,6 +23614,8 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <wire x1="83.82" y1="-109.22" x2="134.62" y2="-109.22" width="0.1524" layer="97"/>
 <text x="58.42" y="-106.68" size="2.54" layer="97" align="center">Email</text>
 <text x="58.42" y="-111.76" size="2.54" layer="97" align="center">sph@1stage.com</text>
+<text x="152.4" y="-38.1" size="2.54" layer="97" align="center">Front RAM enable</text>
+<text x="193.04" y="-38.1" size="2.54" layer="97" align="center">Rear ROM enable</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="96.52" y="43.18" smashed="yes">
@@ -23679,6 +23812,20 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <instance part="XX03" gate="G$1" x="-45.72" y="-15.24" smashed="yes"/>
 <instance part="P+6" gate="VCC" x="-68.58" y="-5.08" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-66.04" y="-7.62" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SJ1" gate="1" x="157.48" y="-27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="160.02" y="-25.4" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="153.67" y="-25.4" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SJ2" gate="1" x="180.34" y="-27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="182.88" y="-25.4" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="176.53" y="-25.4" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND10" gate="1" x="165.1" y="-33.02" smashed="yes" rot="R90">
+<attribute name="VALUE" x="167.64" y="-35.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND11" gate="1" x="198.12" y="-33.02" smashed="yes" rot="R90">
+<attribute name="VALUE" x="200.66" y="-35.56" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -24358,20 +24505,11 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="X44"/>
-<wire x1="165.1" y1="-22.86" x2="134.62" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="X44"/>
-<wire x1="165.1" y1="-22.86" x2="187.96" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="165.1" y="-22.86"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="134.62" y1="-25.4" x2="134.62" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="X34"/>
 <wire x1="165.1" y1="2.54" x2="134.62" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="X34"/>
-<wire x1="165.1" y1="2.54" x2="187.96" y2="7.62" width="0.1524" layer="91"/>
-<junction x="165.1" y="2.54"/>
 <wire x1="134.62" y1="-22.86" x2="134.62" y2="2.54" width="0.1524" layer="91"/>
-<junction x="134.62" y="-22.86"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -24500,6 +24638,24 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="2.54" y1="71.12" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="71.12" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SJ1" gate="1" pin="2"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="157.48" y1="-33.02" x2="162.56" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="X44"/>
+<wire x1="187.96" y1="-17.78" x2="182.88" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="-17.78" x2="182.88" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="-22.86" x2="187.96" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="-22.86" x2="187.96" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="SJ2" gate="1" pin="2"/>
+<wire x1="180.34" y1="-33.02" x2="187.96" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="-33.02" x2="195.58" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="-27.94" x2="187.96" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="187.96" y="-33.02"/>
 </segment>
 </net>
 <net name="!RD" class="0">
@@ -25167,6 +25323,22 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <wire x1="152.4" y1="-58.42" x2="152.4" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="U6" gate="D" pin="O"/>
 <wire x1="152.4" y1="-73.66" x2="147.32" y2="-73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="X44"/>
+<pinref part="SJ1" gate="1" pin="1"/>
+<wire x1="165.1" y1="-22.86" x2="157.48" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="X34"/>
+<wire x1="187.96" y1="7.62" x2="180.34" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="7.62" x2="180.34" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="SJ2" gate="1" pin="1"/>
+<wire x1="180.34" y1="5.08" x2="180.34" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
