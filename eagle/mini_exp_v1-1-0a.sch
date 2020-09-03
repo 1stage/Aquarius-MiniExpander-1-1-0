@@ -223,8 +223,8 @@
 </package>
 <package name="DB9-MALE-RA">
 <wire x1="-12.446" y1="0" x2="0.0508" y2="0" width="0.0508" layer="21"/>
-<circle x="-12.446" y="0" radius="1.5748" width="0.0508" layer="46"/>
-<circle x="12.5476" y="0" radius="1.5748" width="0.0508" layer="46"/>
+<circle x="-12.446" y="0" radius="1.5748" width="0.0254" layer="20"/>
+<circle x="12.5476" y="0" radius="1.5748" width="0.0254" layer="20"/>
 <wire x1="0.0508" y1="0" x2="12.5476" y2="0" width="0.0508" layer="21"/>
 <wire x1="-1.7272" y1="-3.81" x2="1.8288" y2="-3.81" width="0.0508" layer="46"/>
 <wire x1="-1.7272" y1="0.254" x2="-1.7272" y2="-3.81" width="0.0508" layer="46"/>
@@ -257,52 +257,52 @@ TE 5745001</text>
 <text x="0.0508" y="6.35" size="1.27" layer="21" align="center">&gt;NAME</text>
 </package>
 <package name="AQ-CART-EDGE">
-<smd name="P$1" x="-2.54" y="-26.67" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$3" x="-2.54" y="-24.13" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$5" x="-2.54" y="-21.59" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$7" x="-2.54" y="-19.05" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$9" x="-2.54" y="-16.51" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$11" x="-2.54" y="-13.97" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$13" x="-2.54" y="-11.43" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$15" x="-2.54" y="-8.89" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$17" x="-2.54" y="-6.35" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$19" x="-2.54" y="-3.81" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$21" x="-2.54" y="-1.27" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$23" x="-2.54" y="1.27" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$25" x="-2.54" y="3.81" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$27" x="-2.54" y="6.35" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$29" x="-2.54" y="8.89" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$31" x="-2.54" y="11.43" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$33" x="-2.54" y="13.97" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$35" x="-2.54" y="16.51" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$37" x="-2.54" y="19.05" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$39" x="-2.54" y="21.59" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$41" x="-2.54" y="24.13" dx="5.08" dy="1.27" layer="1" cream="no"/>
-<smd name="P$43" x="-2.54" y="26.67" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$1" x="-1.905" y="-26.67" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$3" x="-1.905" y="-24.13" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$5" x="-1.905" y="-21.59" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$7" x="-1.905" y="-19.05" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$9" x="-1.905" y="-16.51" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$11" x="-1.905" y="-13.97" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$13" x="-1.905" y="-11.43" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$15" x="-1.905" y="-8.89" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$17" x="-1.905" y="-6.35" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$19" x="-1.905" y="-3.81" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$21" x="-1.905" y="-1.27" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$23" x="-1.905" y="1.27" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$25" x="-1.905" y="3.81" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$27" x="-1.905" y="6.35" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$29" x="-1.905" y="8.89" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$31" x="-1.905" y="11.43" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$33" x="-1.905" y="13.97" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$35" x="-1.905" y="16.51" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$37" x="-1.905" y="19.05" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$39" x="-1.905" y="21.59" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$41" x="-1.905" y="24.13" dx="5.08" dy="1.27" layer="1" cream="no"/>
+<smd name="P$43" x="-1.905" y="26.67" dx="5.08" dy="1.27" layer="1" cream="no"/>
 <wire x1="-6.35" y1="-29.21" x2="0.5588" y2="-29.21" width="0" layer="20"/>
 <wire x1="0.5588" y1="28.9814" x2="-6.35" y2="28.9814" width="0" layer="20"/>
-<smd name="P$2" x="-2.54" y="-26.67" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$4" x="-2.54" y="-24.13" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$6" x="-2.54" y="-21.59" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$8" x="-2.54" y="-19.05" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$10" x="-2.54" y="-16.51" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$12" x="-2.54" y="-13.97" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$14" x="-2.54" y="-11.43" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$16" x="-2.54" y="-8.89" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$18" x="-2.54" y="-6.35" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$20" x="-2.54" y="-3.81" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$22" x="-2.54" y="-1.27" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$24" x="-2.54" y="1.27" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$26" x="-2.54" y="3.81" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$28" x="-2.54" y="6.35" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$30" x="-2.54" y="8.89" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$32" x="-2.54" y="11.43" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$34" x="-2.54" y="13.97" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$36" x="-2.54" y="16.51" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$38" x="-2.54" y="19.05" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$40" x="-2.54" y="21.59" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$42" x="-2.54" y="24.13" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$44" x="-2.54" y="26.67" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$2" x="-1.905" y="-26.67" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$4" x="-1.905" y="-24.13" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$6" x="-1.905" y="-21.59" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$8" x="-1.905" y="-19.05" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$10" x="-1.905" y="-16.51" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$12" x="-1.905" y="-13.97" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$14" x="-1.905" y="-11.43" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$16" x="-1.905" y="-8.89" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$18" x="-1.905" y="-6.35" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$20" x="-1.905" y="-3.81" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$22" x="-1.905" y="-1.27" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$24" x="-1.905" y="1.27" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$26" x="-1.905" y="3.81" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$28" x="-1.905" y="6.35" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$30" x="-1.905" y="8.89" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$32" x="-1.905" y="11.43" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$34" x="-1.905" y="13.97" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$36" x="-1.905" y="16.51" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$38" x="-1.905" y="19.05" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$40" x="-1.905" y="21.59" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$42" x="-1.905" y="24.13" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$44" x="-1.905" y="26.67" dx="5.08" dy="1.27" layer="16" cream="no"/>
 <wire x1="1.8288" y1="-27.94" x2="0.5588" y2="-29.21" width="0" layer="20" curve="-90"/>
 <wire x1="0.5588" y1="28.9814" x2="1.8288" y2="27.7114" width="0" layer="20" curve="-90"/>
 <wire x1="1.8288" y1="-27.94" x2="1.8288" y2="27.7114" width="0" layer="20"/>
