@@ -42,6 +42,18 @@ Also, this board serves as an excellent prototype for how the expansion bus can 
 * XX02	Bodge wire, ~1.0 inch, insulated 22 gauge, solid core			
 * XX03	Bodge wire, ~1.75 inches, insulated 22 gauge, solid core			
 
+## Components
+* Aquarius Mini Expander v1-1-0 PCB Rev B, 09 SEP 2020
+* Electronic components (listed in BOM above)
+* 3D printed parts
+  * Aquarius Mini Expander v1-1-0 case BOTTOM
+  * Aquarius Mini Expander v1-1-0 case TOP (in development)
+  * Aquarius Mini Expander v1-1-0 case TRAP_FRONT (in development)
+  * Aquarius Mini Expander v1-1-0 case TRAP_REAR (in development)
+* Assembly screws (to be specified later)
+* Trap Door springs (to be specified later)
+* Trap Door hinges (to be specified later)
+
 ## Caveats
 * This project does not incorpoate any new functionality. Users who want to add functionality may fork this project on their own.
   * SD read/write is not implemented, such as on the Micro Expander, a separate device developed by Bruce Abbott
