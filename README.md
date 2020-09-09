@@ -19,3 +19,4 @@ Also, this board serves as an excellent prototype for how the expansion bus can 
   * Switchable use of ATARI or SEGA joysticks (despite the same DB9 plugs)
 * The three interconnect wires are not replaced in this stock layout. They are implemented as "WIRE" indications on the PCB which should be bridged with 22 gauge solid core, insulated wire.
 * The choke/line filter (33uH) is difficult to source. Users may simply bridge this gap with 22 gauge solid core wire, or they can use a ferrite bead.
+* Two of the small Control Pad interface boards are included as breakaways on either side of the narrow part of the board. These must be removed before the Mini Expander PCB will fit in the stock plastic shell. These small interface boards are used to transition the nine wires in the joystick cable to the mylar conductive pad used in the Control Pads.
