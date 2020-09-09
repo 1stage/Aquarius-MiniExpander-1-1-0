@@ -1,5 +1,5 @@
 # Aquarius Mini Expander 1-1-0
-Aquarius Mini Expander 1-1-0 - Rev A
+Aquarius Mini Expander 1-1-0 - Rev B, 09 SEP 2020
  
 by Sean P. Harrington, sph@1stage.com, http://aquarius.1stage.com
  
