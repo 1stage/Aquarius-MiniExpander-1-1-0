@@ -28,9 +28,9 @@ https://docs.google.com/spreadsheets/d/1Fgy7V73wTicvzhZblFc1MAg1R4uz7tYPBy140xyR
 
 ## Caveats
 * This project does not incorpoate any new functionality. Users who want to add functionality may fork this project on their own.
-  * SD Card read/write is not implemented, such as on the Micro Expander, a separate device developed by Bruce Abbott
-  * RAM expansion is not included, such as the 32kb RAM Cartridge, a separate device developed by Jay Snellen, III
-  * Cartridge ROM expansion is not included, such as the AquariCart, a separate device developed by Jay Snellen, III
+  * SD Card read/write is not implemented, such as on the Micro Expander, a project developed by Bruce Abbott
+  * A RAM expansion device is not included, such as the 32kb RAM Cartridge, a product developed by Jay Snellen, III
+  * A cartridge ROM expansion device is not included, such as the AquariCart, a product developed by Jay Snellen, III
   * Switchable use of ATARI or SEGA joysticks (despite the same DB9 plugs)
 * For users who want to use RAM or ROM in either cartridge slot, jumper pads (solder) have been added to connect pin 34 (rear slot) and/or pin 44 (front slot) to GND. Use this at your own discretion, but understand that you can't insert two ROM cartridges and expect them to work. Using two RAM cartridges could theoretically work, but it has not been tested.
 * To maintain original layout, the three interconnect wires are not incorporated into the PCB. They are indicated as "WIRE" on the PCB, which should be bridged with 22 gauge solid core, insulated wire.
