@@ -28,7 +28,7 @@ https://docs.google.com/spreadsheets/d/1Fgy7V73wTicvzhZblFc1MAg1R4uz7tYPBy140xyR
 
 ## Caveats
 * This project does not incorpoate any new functionality. Users who want to add functionality may fork this project on their own.
-  * SD read/write is not implemented, such as on the Micro Expander, a separate device developed by Bruce Abbott
+  * SD Card read/write is not implemented, such as on the Micro Expander, a separate device developed by Bruce Abbott
   * RAM expansion is not included, such as the 32kb RAM Cartridge, a separate device developed by Jay Snellen, III
   * Cartridge ROM expansion is not included, such as the AquariCart, a separate device developed by Jay Snellen, III
   * Switchable use of ATARI or SEGA joysticks (despite the same DB9 plugs)
