@@ -12,35 +12,7 @@ The purpose of this project is to document the stock Aquarius Mini Expander, bot
 Also, this board serves as an excellent prototype for how the expansion bus can be used on the Aquarius. By observing how the AY-3-8910 sound/IO chip is interfaced to the address and data bus, users who want to create their own expansion device could do so. Since it is already a very simple device (only about 25 components), the large footprint of the board could be improved through smaller SMD components and better trace routing, leaving plenty of room for additional functionality within the original (or modified) Mini Expander case.
 
 ## Bill of Materials
-* C1	Capacitor, Ceramic, 6.4mm pitch, outline 2.5 x 9mm	100nF	https://www.digikey.com/product-detail/en/kemet/C321C104M5U5TA/399-9786-ND/3725983	
-* C2	Capacitor, Ceramic, 6.4mm pitch, outline 2.5 x 9mm	100nF	https://www.digikey.com/product-detail/en/kemet/C321C104M5U5TA/399-9786-ND/3725984	
-* C3	Capacitor, Ceramic, 6.4mm pitch, outline 2.5 x 9mm	100nF	https://www.digikey.com/product-detail/en/kemet/C321C104M5U5TA/399-9786-ND/3725985	
-* C4	Capacitor, Ceramic, 6.4mm pitch, outline 2.5 x 9mm	100nF	https://www.digikey.com/product-detail/en/kemet/C321C104M5U5TA/399-9786-ND/3725986	
-* C5	Capacitor, Ceramic, 6.4mm pitch, outline 2.5 x 9mm	100nF	https://www.digikey.com/product-detail/en/kemet/C321C104M5U5TA/399-9786-ND/3725987	
-* C6	Capacitor, Ceramic, 6.4mm pitch, outline 2.5 x 9mm	100nF	https://www.digikey.com/product-detail/en/kemet/C321C104M5U5TA/399-9786-ND/3725988	
-* C7	Capacitor, Ceramic, 6.4mm pitch, outline 2.5 x 9mm	100nF	https://www.digikey.com/product-detail/en/kemet/C321C104M5U5TA/399-9786-ND/3725989	
-* C8	Capacitor, Electrolytic Polarized, Axial through hole, 22mm pitch, 6mm diameter	10uF @ 16v	https://www.digikey.com/product-detail/en/106TTA035M/1572-1653-ND/5410705	
-* C9	Capacitor, Ceramic, 3.2mm pitch, outline 1 x 3.2mm	10nF @ 50v	https://www.digikey.com/product-detail/en/kemet/C410C103K5R5TA7200/399-4452-1-ND/818309	
-* C10	Capacitor, Ceramic, 3.2mm pitch, outline 1 x 3.2mm	10nF @ 50v	https://www.digikey.com/product-detail/en/kemet/C410C103K5R5TA7200/399-4452-1-ND/818309	
-* J1	Edge Connector, Female, 2x22 pins, 2.54pitch, straight	TE AMP 5530843-4	https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5530843-4/A31717-ND/770543	
-* J2	Edge Connector, Female, 2x22 pins, 2.54pitch, straight	TE AMP 5530843-4	https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5530843-4/A31717-ND/770543	
-* J3	DB9, boardlock, Male, Right angle	TE 5745001-3	https://www.digikey.com/product-detail/en/te-connectivity-amp/5745001-3/A34003-ND/	
-* J4	DB9, boardlock, Male, Right angle	TE 5745001-3	https://www.digikey.com/product-detail/en/te-connectivity-amp/5745001-3/A34003-ND/	
-* L1	Radial formal inductor, outline 2.04 x 5mm	33uH	(ok to replace with wire)	
-* Q1	Transistor 2N3904 NPN, TO-92 CBE	40V, 0.2A	https://www.digikey.com/product-detail/en/on-semiconductor/2N3904BU/2N3904FS-ND/1413	
-* R1	Resistor, 1/4W 0207/7	10k		
-* R2	Resistor, 1/4W 0207/8	4.7k		
-* R3	Resistor, 1/4W 0207/9	470		
-* U1	AY-3-8910, DIL40-6	DIL40-6 Socket Recommended		
-* U2	74LS344N, DIL20	DIL20 Socket Recommended		
-* U3	74LS344N, DIL20	DIL20 Socket Recommended		
-* U4	74LS74N, DIL14	DIL14 Socket Recommended		
-* U5	74LS30N, DIL14	DIL14 Socket Recommended		
-* U6	74LS04N, DIL14	DIL14 Socket Recommended		
-* U7	74LS02N, DIL14	DIL14 Socket Recommended		
-* XX01	Bodge wire, ~1.25 inches, insulated 22 gauge, solid core			
-* XX02	Bodge wire, ~1.0 inch, insulated 22 gauge, solid core			
-* XX03	Bodge wire, ~1.75 inches, insulated 22 gauge, solid core			
+https://docs.google.com/spreadsheets/d/1Fgy7V73wTicvzhZblFc1MAg1R4uz7tYPBy140xyRtXA	
 
 ## Components
 * Aquarius Mini Expander v1-1-0 PCB Rev B, 09 SEP 2020
