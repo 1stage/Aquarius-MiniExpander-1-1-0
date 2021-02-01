@@ -36,3 +36,15 @@ https://docs.google.com/spreadsheets/d/1Fgy7V73wTicvzhZblFc1MAg1R4uz7tYPBy140xyR
 * To maintain original layout, the three interconnect wires are not incorporated into the PCB. They are indicated as "WIRE" on the PCB, which should be bridged with 22 gauge solid core, insulated wire.
 * The L1 choke/line filter (33uH) is difficult to source. Users may simply bridge this gap with 22 gauge solid core wire, or they can use a 0 ohm ferrite bead.
 * Two of the small Control Pad interface boards are included as breakaways on either side of the narrow part of the board. These must be removed before the Mini Expander PCB can fit in the stock plastic shell. These small interface boards are used to transition the nine wires in the joystick cable to the mylar conductive pad used in the Control Pads.
+
+## FAQs
+* Where can I get the PCBs?
+  * https://www.pcbway.com/project/shareproject/Aquarius_Computer_Mini_Expander_PCB.html
+* Will you build me a Mini Expander? I'll pay you!
+  * I won't (WAY too much to do), but it's not too difficult to do yourself. Also, there are some in the Aquarius community who can build one for you.
+* Where can I get a case for this?
+  * 3D print one yourself by exploring the 3d folder of the project. I haven't had time to create the top half (there are some intricate trap-door things to model), but maybe someone in the community will model one to fit?
+* What about Control Pads?
+  * There is a prototype for the Control Pads within the project, but I haven't had the time to take it beyond the prototype phase. This is open source, so have at it!
+* How is this project different from the Micro Expander?
+  * The Aquarius Micro Expander is similar to the Mini Expander in that it has an AY-3-8910 sound chip and a header for Control Pad input (NOT ports, a HEADER). The Micro Expander is different in that it has a 32k memory expansion in it, a USB port, a 3.5mm port, along with a custom ROM that features a PT3 music player, USB ROM reading access, and a customized version of BASIC. The down side is that it blocks the Expansion Port of the Aquarius, so cartridge-based ROM programs (SNAFU, Nightstalker, D&D etc.) can't be used (unless you have the ROM image to load through USB).
