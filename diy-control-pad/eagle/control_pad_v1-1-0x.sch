@@ -1319,6 +1319,11 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <pinref part="GND23" gate="1" pin="GND"/>
 <pinref part="P13" gate="G$1" pin="P$2"/>
 </segment>
+<segment>
+<pinref part="P14" gate="G$1" pin="P$2"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="25.4" y1="58.42" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D05" class="0">
 <segment>
@@ -1469,13 +1474,6 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <wire x1="-10.16" y1="68.58" x2="-15.24" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="D11" gate="G$1" pin="C"/>
 <pinref part="P13" gate="G$1" pin="P$1"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="25.4" y1="58.42" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="P14" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$14" class="0">
