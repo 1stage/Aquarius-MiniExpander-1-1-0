@@ -1,5 +1,5 @@
 # Aquarius Mini Expander 1-1-0
-Aquarius Mini Expander 1-1-0 - Rev B, 09 SEP 2020
+Aquarius Mini Expander 1-1-0 - Rev C, 14 FEB 2021
  
 by Sean P. Harrington, sph@1stage.com, http://aquarius.1stage.com
  
@@ -10,6 +10,8 @@ Since the Aquarius doesn't do much on it's own, and playing games on the chickle
 The purpose of this project is to document the stock Aquarius Mini Expander, both in schematic form and in board layout. An excellent document from Radofin exists that records the original schematic for the device, and it was used to verify the components and layout of this project, but there are a few, minor discrepancies that have been corrected based on ACTUAL board layout. 
 
 Also, this board serves as a useful prototype for how the expansion bus can be used on the Aquarius. By observing how the AY-3-8910 sound/IO chip is interfaced to the address and data bus, users who want to create their own expansion device could do so. Since it is already a very simple device (only about 25 components), the large footprint of the board could be improved through smaller SMD components and better trace routing, leaving plenty of room for additional functionality within the original (or modified) Mini Expander case.
+
+To that end, an additional header for AY-3-8910 I/O has been added, along with detailed silkscreen markings on both the new header and the upper Expansion Slot so that hobbyists can experiment with creating their own expansions to the Aquarius. A reminder that the Expansion Slot pins are NOT like GPIO pins on an Arduino or Raspberry Pi. A0 does NOT mean analog pin zero, and D0 does NOT mean digital pin zero (nor any of the others). If you want to create your own I/O procedures, use the IO pins on the AY-3-8910 instead.
 
 ## Bill of Materials
 https://docs.google.com/spreadsheets/d/1Fgy7V73wTicvzhZblFc1MAg1R4uz7tYPBy140xyRtXA	
@@ -48,3 +50,5 @@ https://docs.google.com/spreadsheets/d/1Fgy7V73wTicvzhZblFc1MAg1R4uz7tYPBy140xyR
   * There is a prototype for the Control Pads within the project, but I haven't had the time to take it beyond the prototype phase. This is open source, so have at it!
 * How is this project different from the Micro Expander?
   * Designed by Bruce Abbott, the Aquarius Micro Expander is similar to the Mini Expander in that it has an AY-3-8910 sound chip and a header for Control Pad input (NOT joystick ports, a pin header). The Micro Expander is different in that it has a 32k memory expansion in it, a USB port, a 3.5mm audio port, along with a custom ROM that features a PT3 music player, USB ROM reading access, and a customized version of BASIC. The down side is that it blocks the Expansion Port of the Aquarius, so cartridge-based ROM programs (SNAFU, Nightstalker, D&D etc.) can't be used (unless you have the ROM image to load through USB).
+* Why can't I use the A00-A15 expansion pins as analog input/output, or the D00-D15 as digital input/output for my Arduino experiments?
+  * First of all, these pins are NOT analog and digital input/output pins! They are DIRECTLY connected to the **address** bus and the **data** bus (hence the A00 or D00 markings). Unless you know how the timings of these busses work, you're more than likely going to damage your Aquarius. If you want to experiment safely with TTL level inputs and outputs, use the IOA0-IOA7 or IOB0-IOB7 pins on the AY-3-8910 header instead.
